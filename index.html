@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student result</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="text">
+            <div class="span"></div>
+          <div class="h1"><h1>Enter your marks</h1></div>
+        </div>
+        <div class="marks">
+          <div class="math divs">
+            
+            <input type="text" id="math" class="input" placeholder="maths"/>
+          </div>
+          <div class="phy divs">
+            
+            <input type="text" id="phy" class="input" placeholder="physics"/>
+          </div>
+          <div class="webpro divs">
+            
+            <input type="text" id="webpro" class="input" placeholder="web Programming"/>
+          </div>
+          <div class="science divs">
+           
+            <input type="text" id="science" class="input" placeholder="science"/>
+          </div>
+
+          <div id="sub">
+            <input type="submit" value="SHOWPERCENTAGE" onclick="calcy()" />
+          </div>
+        </div>
+
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
