@@ -22,7 +22,7 @@ if (perc<=100 && perc>=80) {
 }else {
     grade = "you are fail you percentage is less than 33 !!!"
 }
-if(perc>100 || a>100 || b>100 || c>100 || d>100){
+if(perc>100 || a>100 || b>100 || c>100 || d>100 || a<0 || b<0 || c<0 || d<0){
     document.getElementById('result').innerHTML = "please Enter the currect marks"
 } else {
 document.getElementById('result').innerHTML = `Your total marks are ${total} , your percentage is ${perc} <br> and ${grade}` ;
